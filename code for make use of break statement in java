@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class github{
+    public static void main(String args[]){
+        Scanner a = new Scanner(System.in);
+        System.out.print("Enter a number for looping : ");
+        int b = a.nextInt();
+        System.out.print("Enter a number to stop : ");
+        int c = a.nextInt();
+        int d=0;
+        for(d=0;d<=b;d++){
+            System.out.println("looping : "+d);
+            if(d==c){
+                break;
+            }
+        }
+    }
+}
